@@ -163,39 +163,34 @@ section {
 }
 
 .proficiency-bar {
-    height: 100%;
-    border-radius: 5px;
-    text-align: right;
-    padding-right: 10px;
-    line-height: 25px;
-    color: black;
-    font-weight: bold;
-    margin-top:30px;
-    margin-bottom: 30px;
+   width:80%;
+  height:20px;
+  background-color:lightgreen;
+  transition:background-color 0.5s ease;
 }
 
 .proficiency-bar.html {
     width: 90%;
-    background: #e34c26;
-    color: #007BFF;
+    background: lightblue;
+   
 }
 
 .proficiency-bar.css {
     width: 80%;
     background: #264de4;
-    color: #26e44c;
+ 
 }
 
 .proficiency-bar.Excel {
     width: 80%;
     background: #f0db4f;
-    color: #323330;
+
 }
 
 .proficiency-bar.Java {
     width: 90%;
     background: #4ff0f0;
-    color: #323330;
+  
 }
 
 
