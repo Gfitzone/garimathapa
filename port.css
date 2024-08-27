@@ -94,7 +94,7 @@ section {
 
 #hero img {
     width: 200px;
-    height: 200px;
+    height: 175px;
     object-fit: cover;
     border-radius: 30%;
     margin-bottom: 10px;
@@ -187,29 +187,19 @@ section {
     color: #26e44c;
 }
 
-.proficiency-bar.javascript {
+.proficiency-bar.Excel {
     width: 80%;
     background: #f0db4f;
     color: #323330;
 }
 
-.proficiency-bar.react {
+.proficiency-bar.java {
     width: 90%;
     background: #4ff0f0;
     color: #323330;
 }
 
-.proficiency-bar.nodejs {
-    width: 80%;
-    background: #3b8d31;
-    color: #323330;
-}
 
-.proficiency-bar.express {
-    width: 90%;
-    background: #8b306d;
-    color: #323330;
-}
 
 /* projects & contact section  */
 
@@ -245,7 +235,7 @@ section {
     font-size: 18px;
     border-radius: 5px;
     padding: 20px;
-    max-width: 300px;
+    max-width: 60px;
     text-align: center;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -257,7 +247,7 @@ section {
 }
 
 .projects-container img {
-    width: 100%;
+    width: 60%;
     border-radius: 5px;
     margin-bottom: 15px;
     
