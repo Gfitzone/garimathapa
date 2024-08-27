@@ -10,7 +10,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 body {
     line-height: 1.6;
     color: darkblue;
@@ -246,16 +245,23 @@ section {
     transform: scale(1.03);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
-.projects-container img {
    
-   width: 200px;
-    height: 175px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    
+/* Ensure the image is responsive */
+.project-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes any extra space below the image */
 }
+
+/* Additional styling for the project container to ensure proper layout */
+.project-container {
+    width: 100%;
+    overflow: hidden; /* Ensures no overflow if image is too large */
+    padding: 0; /* Adjust as needed */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+  
 
 
 /* contact section  */
